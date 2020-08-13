@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ConstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity" >
+
+    <ImageButton
+        android:id="@+id/btn_plus_1"
+        android:layout_width="54dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginBottom="129dp"
+        android:background="#00000000"
+        android:contentDescription="@string/btn_plus_1_dsc"
+        android:onClick="onClickBtnUp1"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/btn_plus_style" />
+
+    <ImageButton
+        android:id="@+id/btn_plus_2"
+        android:layout_width="54dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginBottom="129dp"
+        android:background="#00000000"
+        android:contentDescription="@string/btn_plus_2_dsc"
+        android:onClick="onClickBtnUp2"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_plus_1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/btn_plus_style" />
+
+    <ImageButton
+        android:id="@+id/btn_plus_3"
+        android:layout_width="54dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginBottom="129dp"
+        android:background="#00000000"
+        android:contentDescription="@string/btn_plus_3_dsc"
+        android:onClick="onClickBtnUp3"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_plus_2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/btn_plus_style" />
+
+    <ImageButton
+        android:id="@+id/btn_plus_4"
+        android:layout_width="54dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginBottom="129dp"
+        android:background="#00000000"
+        android:contentDescription="@string/btn_plus_4_dsc"
+        android:onClick="onClickBtnUp4"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_plus_3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/btn_plus_style" />
+
+    <ImageButton
+        android:id="@+id/btn_plus_5"
+        android:layout_width="54dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginBottom="129dp"
+        android:background="#00000000"
+        android:contentDescription="@string/btn_plus_5_dsc"
+        android:onClick="onClickBtnUp5"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_plus_4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/btn_plus_style" />
+
+    <ImageButton
+        android:id="@+id/btn_plus_6"
+        android:layout_width="54dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginBottom="129dp"
+        android:background="#00000000"
+        android:contentDescription="@string/btn_plus_6_dsc"
+        android:onClick="onClickBtnUp6"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_plus_5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/btn_plus_style" />
+
+    <ImageButton
+        android:id="@+id/btn_minus_1"
+        android:layout_width="54dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:background="#00000000"
+        android:contentDescription="@string/btn_minus_1_dsc"
+        android:onClick="onClickBtnDown1"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_plus_1"
+        app:srcCompat="@drawable/btn_minus_style" />
+
+    <ImageButton
+        android:id="@+id/btn_minus_2"
+        android:layout_width="54dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:background="#00000000"
+        android:contentDescription="@string/btn_minus_2_dsc"
+        android:onClick="onClickBtnDown2"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toEndOf="@+id/btn_minus_1"
+        app:layout_constraintTop_toBottomOf="@+id/btn_plus_2"
+        app:srcCompat="@drawable/btn_minus_style" />
+
+    <ImageButton
+        android:id="@+id/btn_minus_3"
+        android:layout_width="54dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:background="#00000000"
+        android:contentDescription="@string/btn_minus_3_dsc"
+        android:onClick="onClickBtnDown3"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toEndOf="@+id/btn_minus_2"
+        app:layout_constraintTop_toBottomOf="@+id/btn_plus_3"
+        app:srcCompat="@drawable/btn_minus_style" />
+
+    <ImageButton
+        android:id="@+id/btn_minus_4"
+        android:layout_width="54dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:background="#00000000"
+        android:contentDescription="@string/btn_minus_4_dsc"
+        android:onClick="onClickBtnDown4"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toEndOf="@+id/btn_minus_3"
+        app:layout_constraintTop_toBottomOf="@+id/btn_plus_4"
+        app:srcCompat="@drawable/btn_minus_style" />
+
+    <ImageButton
+        android:id="@+id/btn_minus_5"
+        android:layout_width="54dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:background="#00000000"
+        android:contentDescription="@string/btn_minus_5_dsc"
+        android:onClick="onClickBtnDown5"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toEndOf="@+id/btn_minus_4"
+        app:layout_constraintTop_toBottomOf="@+id/btn_plus_5"
+        app:srcCompat="@drawable/btn_minus_style" />
+
+    <ImageButton
+        android:id="@+id/btn_minus_6"
+        android:layout_width="54dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:background="#00000000"
+        android:contentDescription="@string/btn_minus_6_dsc"
+        android:onClick="onClickBtnDown6"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toEndOf="@+id/btn_minus_5"
+        app:layout_constraintTop_toBottomOf="@+id/btn_plus_6"
+        app:srcCompat="@drawable/btn_minus_style" />
+
+    <ImageButton
+        android:id="@+id/btn_reset_1"
+        android:layout_width="54dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:background="#00000000"
+        android:contentDescription="@string/btn_reset_1_dsc"
+        android:onClick="onClickBtnReset1"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_minus_1"
+        app:srcCompat="@drawable/btn_reset_style" />
+
+    <ImageButton
+        android:id="@+id/btn_reset_2"
+        android:layout_width="54dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:background="#00000000"
+        android:contentDescription="@string/btn_reset_2_dsc"
+        android:onClick="onClickBtnReset2"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toEndOf="@+id/btn_reset_1"
+        app:layout_constraintTop_toBottomOf="@+id/btn_minus_2"
+        app:srcCompat="@drawable/btn_reset_style" />
+
+    <ImageButton
+        android:id="@+id/btn_reset_3"
+        android:layout_width="54dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:background="#00000000"
+        android:contentDescription="@string/btn_reset_3_dsc"
+        android:onClick="onClickBtnReset3"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toEndOf="@+id/btn_reset_2"
+        app:layout_constraintTop_toBottomOf="@+id/btn_minus_3"
+        app:srcCompat="@drawable/btn_reset_style" />
+
+    <ImageButton
+        android:id="@+id/btn_reset_4"
+        android:layout_width="54dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:background="#00000000"
+        android:contentDescription="@string/btn_reset_4_dsc"
+        android:onClick="onClickBtnReset4"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toEndOf="@+id/btn_reset_3"
+        app:layout_constraintTop_toBottomOf="@+id/btn_minus_4"
+        app:srcCompat="@drawable/btn_reset_style" />
+
+    <ImageButton
+        android:id="@+id/btn_reset_5"
+        android:layout_width="54dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:background="#00000000"
+        android:contentDescription="@string/btn_reset_5_dsc"
+        android:onClick="onClickBtnReset5"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toEndOf="@+id/btn_reset_4"
+        app:layout_constraintTop_toBottomOf="@+id/btn_minus_5"
+        app:srcCompat="@drawable/btn_reset_style" />
+
+    <ImageButton
+        android:id="@+id/btn_reset_6"
+        android:layout_width="54dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:background="#00000000"
+        android:contentDescription="@string/btn_reset_6_dsc"
+        android:onClick="onClickBtnReset6"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toEndOf="@+id/btn_reset_5"
+        app:layout_constraintTop_toBottomOf="@+id/btn_minus_6"
+        app:srcCompat="@drawable/btn_reset_style" />
+
+    <ImageButton
+        android:id="@+id/btn_all_reset"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginBottom="166dp"
+        android:background="#00000000"
+        android:contentDescription="@string/btn_all_reset_dsc"
+        android:onClick="onClickBtnAllReset"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/btn_all_reset_style" />
+
+    <ImageView
+        android:id="@+id/led_cnt_1_4"
+        android:layout_width="12dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginBottom="50dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_cnt_1_4_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_cnt_1_3"
+        android:layout_width="12dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="50dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_cnt_1_3_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_1"
+        app:layout_constraintStart_toEndOf="@+id/led_cnt_1_4"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_cnt_1_2"
+        android:layout_width="12dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="50dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_cnt_1_2_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_1"
+        app:layout_constraintStart_toEndOf="@+id/led_cnt_1_3"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_cnt_1_1"
+        android:layout_width="12dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="50dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_cnt_1_1_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_1"
+        app:layout_constraintStart_toEndOf="@+id/led_cnt_1_2"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_cnt_2_4"
+        android:layout_width="12dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginBottom="50dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_cnt_2_4_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_2"
+        app:layout_constraintStart_toEndOf="@+id/led_cnt_1_1"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_cnt_2_3"
+        android:layout_width="11dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="50dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_cnt_2_3_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_2"
+        app:layout_constraintStart_toEndOf="@+id/led_cnt_2_4"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_cnt_2_2"
+        android:layout_width="11dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="50dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_cnt_2_2_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_2"
+        app:layout_constraintStart_toEndOf="@+id/led_cnt_2_3"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_cnt_2_1"
+        android:layout_width="11dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="50dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_cnt_2_1_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_2"
+        app:layout_constraintStart_toEndOf="@+id/led_cnt_2_2"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_cnt_3_4"
+        android:layout_width="11dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="50dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_cnt_3_4_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_3"
+        app:layout_constraintStart_toEndOf="@+id/led_cnt_2_1"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_cnt_3_3"
+        android:layout_width="11dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="50dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_cnt_3_3_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_3"
+        app:layout_constraintStart_toEndOf="@+id/led_cnt_3_4"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_cnt_3_2"
+        android:layout_width="11dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="50dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_cnt_3_2_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_3"
+        app:layout_constraintStart_toEndOf="@+id/led_cnt_3_3"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_cnt_3_1"
+        android:layout_width="11dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="50dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_cnt_3_1_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_3"
+        app:layout_constraintStart_toEndOf="@+id/led_cnt_3_2"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_cnt_4_4"
+        android:layout_width="11dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginBottom="50dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_cnt_4_4_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_4"
+        app:layout_constraintStart_toEndOf="@+id/led_cnt_3_1"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_cnt_4_3"
+        android:layout_width="11dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="50dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_cnt_4_3_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_4"
+        app:layout_constraintStart_toEndOf="@+id/led_cnt_4_4"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_cnt_4_2"
+        android:layout_width="11dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="50dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_cnt_4_2_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_4"
+        app:layout_constraintStart_toEndOf="@+id/led_cnt_4_3"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_cnt_4_1"
+        android:layout_width="11dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="50dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_cnt_4_1_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_4"
+        app:layout_constraintStart_toEndOf="@+id/led_cnt_4_2"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_cnt_5_4"
+        android:layout_width="11dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginBottom="50dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_cnt_5_4_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_5"
+        app:layout_constraintStart_toEndOf="@+id/led_cnt_4_1"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_cnt_5_3"
+        android:layout_width="11dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="50dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_cnt_5_3_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_5"
+        app:layout_constraintStart_toEndOf="@+id/led_cnt_5_4"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_cnt_5_2"
+        android:layout_width="11dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="50dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_cnt_5_2_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_5"
+        app:layout_constraintStart_toEndOf="@+id/led_cnt_5_3"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_cnt_5_1"
+        android:layout_width="11dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="50dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_cnt_5_1_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_5"
+        app:layout_constraintStart_toEndOf="@+id/led_cnt_5_2"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_cnt_6_4"
+        android:layout_width="11dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginBottom="50dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_cnt_6_4_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_6"
+        app:layout_constraintStart_toEndOf="@+id/led_cnt_5_1"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_cnt_6_3"
+        android:layout_width="11dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="50dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_cnt_6_3_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_6"
+        app:layout_constraintStart_toEndOf="@+id/led_cnt_6_4"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_cnt_6_2"
+        android:layout_width="11dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="50dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_cnt_6_2_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_6"
+        app:layout_constraintStart_toEndOf="@+id/led_cnt_6_3"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_cnt_6_1"
+        android:layout_width="11dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="50dp"
+        android:contentDescription="@string/led_cnt_6_1_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_6"
+        app:layout_constraintStart_toEndOf="@+id/led_cnt_6_2"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_per_1_4"
+        android:layout_width="8.4dp"
+        android:layout_height="15.4dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginLeft="152dp"
+        android:layout_marginBottom="120dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_per_1_4_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_per_1_3"
+        android:layout_width="8.4dp"
+        android:layout_height="15.4dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="120dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_per_1_3_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_2"
+        app:layout_constraintStart_toEndOf="@+id/led_per_1_4"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_per_1_2"
+        android:layout_width="8.4dp"
+        android:layout_height="15.4dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="120dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_per_1_2_dsc"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_2"
+        app:layout_constraintStart_toEndOf="@+id/led_per_1_3"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_dot_1"
+        android:layout_width="1.75dp"
+        android:layout_height="15.4dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="120dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_dot_1_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_2"
+        app:layout_constraintStart_toEndOf="@+id/led_per_1_2"
+        app:srcCompat="@drawable/dot" />
+
+    <ImageView
+        android:id="@+id/led_per_1_1"
+        android:layout_width="8.4dp"
+        android:layout_height="15.4dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="120dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_per_1_1_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_2"
+        app:layout_constraintStart_toEndOf="@+id/led_dot_1"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_per_1"
+        android:layout_width="9.8dp"
+        android:layout_height="13.3dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="120dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_per_1_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_2"
+        app:layout_constraintStart_toEndOf="@+id/led_per_1_1"
+        app:srcCompat="@drawable/percent" />
+
+    <ImageView
+        android:id="@+id/led_per_2_4"
+        android:layout_width="8.4dp"
+        android:layout_height="15.4dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginBottom="120dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_per_2_4_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_3"
+        app:layout_constraintStart_toEndOf="@+id/led_per_1"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_per_2_3"
+        android:layout_width="8.4dp"
+        android:layout_height="15.4dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="120dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_per_2_3_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_3"
+        app:layout_constraintStart_toEndOf="@+id/led_per_2_4"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_per_2_2"
+        android:layout_width="8.4dp"
+        android:layout_height="15.4dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="120dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_per_2_1_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_3"
+        app:layout_constraintStart_toEndOf="@+id/led_per_2_3"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_dot_2"
+        android:layout_width="1.75dp"
+        android:layout_height="15.4dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="120dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_dot_2_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_3"
+        app:layout_constraintStart_toEndOf="@+id/led_per_2_2"
+        app:srcCompat="@drawable/dot" />
+
+    <ImageView
+        android:id="@+id/led_per_2_1"
+        android:layout_width="8.4dp"
+        android:layout_height="15.4dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="120dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_per_2_1_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_3"
+        app:layout_constraintStart_toEndOf="@+id/led_dot_2"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_per_2"
+        android:layout_width="9.8dp"
+        android:layout_height="13.3dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="120dp"
+        android:contentDescription="@string/led_per_2_dsc"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_3"
+        app:layout_constraintStart_toEndOf="@+id/led_per_2_1"
+        app:srcCompat="@drawable/percent" />
+
+    <ImageView
+        android:id="@+id/led_per_3_4"
+        android:layout_width="8.4dp"
+        android:layout_height="15.4dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginBottom="120dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_per_3_4_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_4"
+        app:layout_constraintStart_toEndOf="@+id/led_per_2"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_per_3_3"
+        android:layout_width="8.4dp"
+        android:layout_height="15.4dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="120dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_per_3_3_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_4"
+        app:layout_constraintStart_toEndOf="@+id/led_per_3_4"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_per_3_2"
+        android:layout_width="8.4dp"
+        android:layout_height="15.4dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="120dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_per_3_2_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_4"
+        app:layout_constraintStart_toEndOf="@+id/led_per_3_3"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_dot_3"
+        android:layout_width="1.75dp"
+        android:layout_height="15.4dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="120dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_dot_3_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_4"
+        app:layout_constraintStart_toEndOf="@+id/led_per_3_2"
+        app:srcCompat="@drawable/dot" />
+
+    <ImageView
+        android:id="@+id/led_per_3_1"
+        android:layout_width="8.4dp"
+        android:layout_height="15.4dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="120dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_per_3_1_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_4"
+        app:layout_constraintStart_toEndOf="@+id/led_dot_3"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_per_3"
+        android:layout_width="9.8dp"
+        android:layout_height="13.3dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="120dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_per_3_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_4"
+        app:layout_constraintStart_toEndOf="@+id/led_per_3_1"
+        app:srcCompat="@drawable/percent" />
+
+    <ImageView
+        android:id="@+id/led_per_4_4"
+        android:layout_width="8.4dp"
+        android:layout_height="15.4dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginBottom="120dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_per_4_4_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_5"
+        app:layout_constraintStart_toEndOf="@+id/led_per_3"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_per_4_3"
+        android:layout_width="8.4dp"
+        android:layout_height="15.4dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="120dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_per_4_3_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_5"
+        app:layout_constraintStart_toEndOf="@+id/led_per_4_4"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_per_4_2"
+        android:layout_width="8.4dp"
+        android:layout_height="15.4dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="120dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_per_4_2_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_5"
+        app:layout_constraintStart_toEndOf="@+id/led_per_4_3"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_dot_4"
+        android:layout_width="1.75dp"
+        android:layout_height="15.4dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="120dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_dot_4_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_5"
+        app:layout_constraintStart_toEndOf="@+id/led_per_4_2"
+        app:srcCompat="@drawable/dot" />
+
+    <ImageView
+        android:id="@+id/led_per_4_1"
+        android:layout_width="8.4dp"
+        android:layout_height="15.4dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="120dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_per_4_1_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_5"
+        app:layout_constraintStart_toEndOf="@+id/led_dot_4"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_per_4"
+        android:layout_width="9.8dp"
+        android:layout_height="13.3dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="120dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_per_4_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_5"
+        app:layout_constraintStart_toEndOf="@+id/led_per_4_1"
+        app:srcCompat="@drawable/percent" />
+
+    <ImageView
+        android:id="@+id/led_per_5_4"
+        android:layout_width="8.4dp"
+        android:layout_height="15.4dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginBottom="120dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_per_5_4_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_6"
+        app:layout_constraintStart_toEndOf="@+id/led_per_4"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_per_5_3"
+        android:layout_width="8.4dp"
+        android:layout_height="15.4dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="120dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_per_5_3_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_6"
+        app:layout_constraintStart_toEndOf="@+id/led_per_5_4"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_per_5_2"
+        android:layout_width="8.4dp"
+        android:layout_height="15.4dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="120dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_per_5_2_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_6"
+        app:layout_constraintStart_toEndOf="@+id/led_per_5_3"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_dot_5"
+        android:layout_width="1.75dp"
+        android:layout_height="15.4dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="120dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_dot_5_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_6"
+        app:layout_constraintStart_toEndOf="@+id/led_per_5_2"
+        app:srcCompat="@drawable/dot" />
+
+    <ImageView
+        android:id="@+id/led_per_5_1"
+        android:layout_width="8.4dp"
+        android:layout_height="15.4dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="120dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_per_5_1_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_6"
+        app:layout_constraintStart_toEndOf="@+id/led_dot_5"
+        app:srcCompat="@drawable/num_none" />
+
+    <ImageView
+        android:id="@+id/led_per_5"
+        android:layout_width="9.8dp"
+        android:layout_height="13.3dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="120dp"
+        android:background="#00000000"
+        android:contentDescription="@string/led_per_5_dsc"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus_6"
+        app:layout_constraintStart_toEndOf="@+id/led_per_5_1"
+        app:srcCompat="@drawable/percent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
